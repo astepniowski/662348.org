@@ -21,13 +21,17 @@ function LeagueMatchItem({ match }) {
 
             <p>Kill Participation: {(match["kill-participation"] * 100).toFixed(0)}%</p>
 
-            <p>cs: {match.cs}</p>
+            <p>cs: {match.cs} ({(match.cs / minutes).toFixed(1)}/min)</p>
 
             <div>
                 <p>Items:</p>
-                    {match["items-array"].map((item, i) => (
-                <p key={i}>{item}</p>
-                ))}
+
+                    {match["items-array"].map((item, index) => (
+                        <div key={index} style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                            <img src={item.image} alt={item.name} width="30" />
+                            <span> {item.name}</span>
+                        </div>
+                    ))}
             </div>
         </div>
     )

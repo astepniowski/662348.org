@@ -213,7 +213,7 @@ function Gallery() {
         
         <Link to="/" className="redirect-home">home</Link>
 
-        <p className = "footer">- always be (unapolagetically yourself)</p>
+        <p className = "footer">- you are a fleeting glimpse into my heart, and also a sorrowful figure etched into my brow</p>
     </div>
   );
 }

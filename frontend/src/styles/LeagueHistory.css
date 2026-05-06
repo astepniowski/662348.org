@@ -2,7 +2,7 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 1rem;
     
 }
 
@@ -48,4 +48,56 @@
 .neg-kda {
     color: red;
     font-weight: bolder;
+}
+
+.mastery-card-wrapper {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row; 
+    overflow-x: auto;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mastery-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 250px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.mastery-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    font-family: monospace;
+    font-size: small;
+}
+
+.mastery-card img {
+    width: 64px;
+    height: 64x;
+    object-fit: contain;
+}
+
+.mastery-text p {
+  margin: 0;
+}
+
+.summoner-header-info-wrapper { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 0.33rem;
+    padding-top: 2rem;
+}
+
+.summoner-header-info-wrapper p {
+    margin: 0;
 }

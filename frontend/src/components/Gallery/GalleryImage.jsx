@@ -11,6 +11,7 @@ function GalleryImage({
 }) {
   const [hovered, setHovered] = useState(false);
   const [expanded, setExpanded] = useState(false);
+  const isHoverDevice = window.matchMedia("(hover: hover)").matches;
 
   return (
     <div className="image-wrapper">
@@ -26,12 +27,12 @@ function GalleryImage({
           onClick={() => setExpanded(true)}
         />
 
-        {hovered && !expanded && attachAudioPlayer && (
+        {(hovered || !isHoverDevice) && !expanded && attachAudioPlayer && (
           <SongIndicator />
         )}
       </div>
 
-      {hovered && !expanded && (
+      {(hovered || !isHoverDevice) && !expanded && (
         <div className="hover-text">
           {focusText}
         </div>

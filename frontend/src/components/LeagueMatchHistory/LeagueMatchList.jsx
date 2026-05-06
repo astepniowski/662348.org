@@ -1,5 +1,6 @@
 import LeagueMatchItem from "./LeagueMatchItem";
 
+
 function LeagueMatchList({ matches }) {
     if(!matches || matches.length === 0) {
         return <h3 className="loading-matches">no matches found</h3>;
@@ -9,8 +10,8 @@ function LeagueMatchList({ matches }) {
         <div className = "league-list-wrapper">
             {matches.map((match) => (
                 <LeagueMatchItem
-                    key={match.match_id}
-                    match={match}
+                key={`${match.champion}-${match["game-time-end"]}`}
+                match={match}
                 />
             ))}
         </div>
