@@ -13,6 +13,7 @@ function FileTree() {
                     <FileItem label = "README.txt" to="/readme"/>
                     <FileItem label = "league-history" to="/league-history"/>
                     <FileItem label = "blog" to="/blog"/>
+                    <FileItem label = "gun-effect" to="/gun-effect"/>
                 </div>
             </div>
         </div>

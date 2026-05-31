@@ -31,6 +31,8 @@ import twenty from "../assets/images/20.jpg"
 import twentyone from "../assets/images/21.jpg"
 import twentytwo from "../assets/images/22.jpg"
 import twentythree from "../assets/images/23.jpg"
+
+ //row 4
 import twentyfour from "../assets/images/24.jpg"
 import twentyfive from "../assets/images/25.jpg"
 import twentysix from "../assets/images/26.jpg"
@@ -38,8 +40,13 @@ import twentyseven from "../assets/images/27.jpg"
 import twentyeight from "../assets/images/28.jpg"
 import twentynine from "../assets/images/29.jpg"
 import thirty from "../assets/images/30.jpg"
+
+//row 5
 import thirtyone from "../assets/images/31.jpg"
 import thirtytwo from "../assets/images/32.jpg"
+import thirtythree from "../assets/images/33.jpg"
+import thirtyfour from "../assets/images/34.jpg"
+import thirtyfive from "../assets/images/35.jpg"
 
 const images = [
     {
@@ -191,8 +198,24 @@ const images = [
         focusText: "9teen",
         attachAudioPlayer: true,
         playlistIndex: 10
-    }
-]
+    },
+    {
+        src: thirtythree,
+        focusText: "wish",
+        attachAudioPlayer: true,
+        playlistIndex: 11
+    },
+    {
+        src: thirtyfour,
+        focusText: "rmx",
+        attachAudioPlayer: true,
+        playlistIndex: 12
+    },
+    {
+        src: thirtyfive,
+        focusText: "killua"
+    },
+].reverse()
 
 function Gallery() {
   return (

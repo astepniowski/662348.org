@@ -6,9 +6,14 @@
 
 .star-spin {
     width: 200px;
-    height: 150px
+    height: 150px;
 }
 
 .blog-entry-item {
    margin-top: 8vh;
+}
+
+.crystal-castles {
+    width: 200px;
+    height: 200px;
 }

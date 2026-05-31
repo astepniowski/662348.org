@@ -6,6 +6,7 @@ import Gallery from "./pages/Gallery"
 import ReadMe from "./pages/ReadMe"
 import LeagueHistory from "./pages/LeagueHistory";
 import Blog from "./pages/Blog";
+import GunEffect from "./pages/GunEffect";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/readme" element={<ReadMe />} />
       <Route path="/league-history" element={<LeagueHistory/>} />
       <Route path="/blog" element={<Blog/>} />
+      <Route path="/gun-effect" element={<GunEffect/>} />
     </Routes>
   );
 }

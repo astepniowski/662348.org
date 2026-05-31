@@ -16,6 +16,8 @@ import maybejustlookaround from "../../assets/audio/maybejustlookaround.mp3"
 import kick from "../../assets/audio/kick.mp3"
 import movie from "../../assets/audio/movie.mp3"
 import nineteen from "../../assets/audio/nineteen.mp3"
+import by_the_sea from "../../assets/audio/by_the_sea.mp3"
+import surgeon_final from "../../assets/audio/final_surgeon.mp3"
 
 const playlists = [
   [
@@ -66,6 +68,14 @@ const playlists = [
   [
     //playlistIndex[10] 3castles - 9teen
     { src: nineteen, title: "3castles - 9teen"}
+  ],
+  [
+    //playlistIndex[11] roseara - by the sea
+    { src: by_the_sea, title: "roseara - by the sea"}
+  ],
+  [
+    //playlistIndex[12] surgeon - final
+    { src: surgeon_final, title: "prodsurgeon - untitled"}
   ]
 ];
 

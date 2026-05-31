@@ -1,0 +1,61 @@
+.gun-effect-wrapper {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  font-family: monospace;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gun-effect-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.gun-effect-status {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  white-space: nowrap;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+}
+
+.gun-effect-status p {
+  margin: 0;
+  padding: 0;
+}
+
+.gun-effect-debug {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: monospace;
+  font-size: 13px;
+  color: lime;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  z-index: 10;
+  white-space: nowrap;
+}
+
